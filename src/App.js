@@ -1,13 +1,13 @@
-
 import './App.css';
-import CurrencyConverter from "./components/. currency-converter";
+import CurrencyConverter from "./components/currency-converter";
 
 function App() {
-  return 
+  return (
+    <div className="App">
+      {<CurrencyConverter/> }
 
-  <div className="App">
-<CurrencyConverter />
     </div>
+  );
 }
 
 export default App;
