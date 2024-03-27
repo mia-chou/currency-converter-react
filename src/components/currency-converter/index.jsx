@@ -59,7 +59,7 @@ function CurrencyConverter() {
         />
         <select value={fromCurrency} onChange={handleFromCurrencyChange}>
           <option value={"USD"}>USD</option>
-          <option value={"INR"}>INR</option>
+          <option value={"GBP"}>GBP</option>
           <option value={"EUR"}>EUR</option>
         </select>
       </div>
@@ -71,8 +71,8 @@ function CurrencyConverter() {
           readOnly
         />
         <select value={toCurrency} onChange={handleToCurrencyChange}>
-          <option value={"EUR"}>EUR</option>
-          <option value={"INR"}>INR</option>
+          <option value={"GBP"}>GBP</option>
+          <option value={"EUr"}>EUR</option>
           <option value={"USD"}>USD</option>
         </select>
       </div>
