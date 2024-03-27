@@ -4,7 +4,7 @@ import "./currency.css";
 function CurrencyConverter() {
   const [amount, setAmount] = useState(1);
   const [fromCurrency, setFromCurrency] = useState("USD");
-  const [toCurrency, setToCurrency] = useState("INR");
+  const [toCurrency, setToCurrency] = useState("GBP");
   const [exchangeRate, setExchangeRate] = useState(0); // Initialize with default value
   const [convertedAmount, setConvertedAmount] = useState();
 
@@ -72,7 +72,7 @@ function CurrencyConverter() {
         />
         <select value={toCurrency} onChange={handleToCurrencyChange}>
           <option value={"GBP"}>GBP</option>
-          <option value={"EUr"}>EUR</option>
+          <option value={"EUR"}>EUR</option>
           <option value={"USD"}>USD</option>
         </select>
       </div>
